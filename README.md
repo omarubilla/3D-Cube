@@ -2,7 +2,7 @@
 
 ![](omni_logo.gif)
 
-Want to learn 3D using OpenCV and python3 ?
+#Want to learn 3D using OpenCV and python3 ?
 
 This work was created by Joe Menke and Wayne Zhu at the University of Califrnia, Berkeley.
 
