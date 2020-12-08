@@ -16,7 +16,7 @@ My goal is to find how to make the tracker follow the movement of the tracker im
 
 Feel free to add any improvements or additions!
 
-use CalibrationHelpers.py and CalibrationChecker.png to save different image poses.
+Use CalibrationHelpers.py and CalibrationChecker.png to save different image poses. The more poses the better. Save these images in a new folder.
 
 ``` ruby
 $ python3 CalibrationHelpers.py
