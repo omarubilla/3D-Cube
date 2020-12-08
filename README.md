@@ -13,10 +13,13 @@ Feel free to add any improvements or additions!
 use CalibrationHelpers.py to save different image poses.
 
 ``` ruby
-python3 CalibrationHelpers.py
+$ python3 CalibrationHelpers.py
 ```
 
 use ARImagePoseTracker.py to run it
+``` ruby
+$ python3 ARImagePoseTracker.py
+```
 
 
 Made available by the BSD 3-Clause License. 2020
