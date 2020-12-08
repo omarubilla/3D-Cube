@@ -7,7 +7,7 @@ import glob
 # directory: should be a string corresponding to the name of an existing 
 # directory
 print("Hello!")
-folder = 'calibration_data'
+folder = 'calibration_data' ####### THE FOLDER YOU CREATED GOES HERE!
 print(folder)
 
 def CaptureImages(folder):
