@@ -12,6 +12,10 @@ Feel free to add any improvements or additions!
 
 use CalibrationHelpers.py to save different image poses.
 
+'''ruby
+python3 CalibrationHelpers.py
+'''
+
 use ARImagePoseTracker.py to run it
 
 
