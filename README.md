@@ -5,7 +5,8 @@
 Want to learn 3D using OpenCV and python3 ?
 
 This work was created by Joe Menke and Wayne Zhu at the University of Califrnia, Berkeley.
-Grateful for the guidance of proffesors Alan Yang and Yi Ma, along with the greater FHL Vive Center for Enhanced Reality community at UC Berkeley.
+
+We are grateful for the guidance of proffesors Alan Yang and Yi Ma, along with the greater FHL Vive Center for Enhanced Reality community at UC Berkeley.
 
 My goal is to find how to make the tracker follow the movement of the tracker image as it moves in real time. Currently, the cube must re-spawn. 
 
