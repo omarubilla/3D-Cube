@@ -29,3 +29,5 @@ $ python3 ARImagePoseTracker.py
 
 
 Made available by the BSD 3-Clause License. 2020
+
+![](seb_anim.gif)
