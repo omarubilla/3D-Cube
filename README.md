@@ -4,7 +4,7 @@
 
 **Want to learn 3D using OpenCV and python3 ?**
 
-This work was created by Joe Menke and Wayne Zhu at the University of Califrnia, Berkeley.
+This work was created in collaboration with Joe Menke and Wayne Zhu at the University of Califrnia, Berkeley.
 
 We are grateful for the guidance of proffesors Alan Yang and Yi Ma, along with the greater FHL Vive Center for Enhanced Reality community at UC Berkeley.
 
