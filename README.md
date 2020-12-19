@@ -16,10 +16,26 @@ My goal is to find how to make the tracker follow the movement of the tracker im
 
 Feel free to add any improvements or additions!
 
-Use CalibrationHelpers.py and CalibrationChecker.png to save different image poses. The more poses the better. Save these images in a new folder.
+Step 1:
+Before we calibrate the camera, use your printed checkerboard image and paste it to a flat surface such as a clipboard or piece of cardboard. Creare a folder, run this code, and hit the space key to take a picture of the calibration pose. The more poses the better (20-30 works good).
 
 ``` ruby
-$ python3 CalibrationHelpers.py
+$ import CalibrationHelpers as calibrate
+mkdir calibration_data
+calib.CaptureImages('calibration_data')
+```
+
+Step 2: To run the actual camera calibration and detect the corners, use:
+
+``` ruby
+$ import CalibrationHelpers as calibrate
+intrinsics, distortion, roi, new_intrinsics =\
+calibrate.CalibrateCamera('calibration_data', True)
+```
+Make sure your printed reprojection error is less than 1 ! If it is greater, re-take your image poses and run a second calibration!
+
+``` ruby
+$ calibrate.SaveCalibrationData('calibration_data', intrinsics, distortion, new_intrinsics, roi)
 ```
 
 use ARImagePoseTracker.py to run it
