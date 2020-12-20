@@ -34,6 +34,8 @@ calibrate.CalibrateCamera('calibration_data', True)
 ```
 Make sure your printed reprojection error is less than 1 ! If it is greater, re-take your image poses and run a second calibration!
 
+Otherwise, save your calibration data.
+
 ``` ruby
 $ calibrate.SaveCalibrationData('calibration_data', intrinsics, distortion, new_intrinsics, roi)
 ```
