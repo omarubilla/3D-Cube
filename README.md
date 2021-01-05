@@ -16,8 +16,13 @@ My goal is to find how to make the tracker follow the movement of the tracker im
 
 Feel free to add any improvements or additions!
 
+Prequisites:
+-Python installed
+-OpenCV installed
+-calibration_checker.png and ARTrackerImage.jpg printed
+
 Step 1:
-Before we calibrate the camera, use your printed checkerboard image and paste it to a flat surface such as a clipboard or piece of cardboard. Creare a folder, run this code, and hit the space key to take a picture of the calibration pose. The more poses the better (20-30 works good).
+Before we calibrate the camera, use your printed checkerboard image and paste it to a flat surface such as a clipboard or piece of cardboard. Create a folder, run this code, and hit the space key to take a picture of the calibration pose. The more poses the better (20-30 works good).
 
 ``` ruby
 $ import CalibrationHelpers as calibrate
@@ -40,7 +45,7 @@ Otherwise, save your calibration data.
 $ calibrate.SaveCalibrationData('calibration_data', intrinsics, distortion, new_intrinsics, roi)
 ```
 
-use ARImagePoseTracker.py to run it
+paste the ARTrackerImage to the other side of your cardboard, hold it up to the camera, and use ARImagePoseTracker.py to spawn the 3D cube.
 ``` ruby
 $ python3 ARImagePoseTracker.py
 ```
