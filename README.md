@@ -1,6 +1,6 @@
 # 3D
 
-![](omni_logo.gif)
+![](3DCube.png)
 
 **Want to learn 3D using OpenCV and python3 ?**
 
@@ -47,3 +47,5 @@ $ python3 ARImagePoseTracker.py
 
 
 Made available by the BSD 3-Clause License. 2020
+
+![](omni_logo.gif)
