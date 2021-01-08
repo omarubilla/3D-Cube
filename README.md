@@ -2,7 +2,7 @@
 
 ![](3DCube.png)
 
-**Want to learn 3D using OpenCV and python3 ?**
+**Want to learn 3D using OpenCV and Python3 ?**
 
 This work was created in collaboration with Joe Menke and Wayne Zhu at the University of Califrnia, Berkeley.
 
@@ -54,7 +54,8 @@ $ python3 ARImagePoseTracker.py
 Made available by the BSD 3-Clause License. 2020
 
 ![](omni_logo.gif)
+
 Omni Astrobiotics©. 2021.
 
-wwww.omniab.us
+www.omniab.us
 
